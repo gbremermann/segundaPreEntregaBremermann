@@ -41,7 +41,7 @@ header div h1 a{
 header ul li{
     list-style-type: none;
     display: inline-block;
-    margin-left: 4.5rem;
+    margin-left: 5.1rem;
     font-size: 3rem;
     width: 100%;   
      
@@ -52,7 +52,7 @@ header ul li{
 
 .botonRegistrarse{
     font-size: 2rem;
-    margin-left: 4rem;
+    margin-left: 6rem;
     margin-right: 2rem;
     margin-top: 1rem;
     background-color: rgb(211, 139, 5);
@@ -73,9 +73,9 @@ header ul li{
 }
 .buscar{
     font-size: 1.5rem;
-    margin-left: 2rem;
+    margin-left: 8rem;
     margin-top: 1rem;
-    
+    width: 20rem;
 }
 .navMenu{
     margin-bottom: 1rem;
@@ -85,7 +85,7 @@ header ul li{
 /******** URGENTE********/
 .actualidad{
     display: flex;
-    background: linear-gradient(to bottom,orange,#fafafa)
+    background-color: orange;
 }
 .actualidadP{
     margin-left: 5rem;
@@ -248,7 +248,7 @@ main div a{
     
 .menuDesplegable{
     background-color: rgb(250, 179, 49);
-    width: 100vw;
+    
     
 }
 
