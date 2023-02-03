@@ -16,6 +16,7 @@ body{
     height: 16rem;
     width: 100%;  
     padding-top: 1rem;
+    border-bottom: 2px solid orange;
     
          
 }
@@ -50,30 +51,40 @@ header ul li{
 
 .botonRegistrarse{
     font-size: 2rem;
-    border: 2px yellow solid;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    background-color: rgb(211, 139, 5);
+    border: 2px red solid;
+    border-radius: 1px;
 }
 .botonRegistrarse:hover{
-    background-color: yellow;
+    background-color: red;
     border: orange 2px solid;
+    border-radius: 2rem;
 }
-.botonRegistrarse:active{
-    background-color: bisque;
-}
+
 .botonRegistrarse a{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-weight: 600;
+    
 }
 .buscar{
-    width: 25rem;
     font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    
+}
+.navMenu{
+    margin-bottom: 1rem;
 }
 
 
 /******** URGENTE********/
 .actualidad{
     display: flex;
-    background-color: orange;
-    border-top: red solid 1px;
+    background: linear-gradient(to bottom,orange,#fafafa)
 }
 .actualidadP{
     margin-left: 5rem;
@@ -104,9 +115,16 @@ h3{
 }
 
 /***NOTAS***/
+.tituloPortada{
+    font-size: 4rem;
+    margin-top: 2rem;
+    border-bottom:2px orange solid; 
+    color: red;
+    font-weight: 600;
+}
 .nota{
     padding: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 section div a{
@@ -123,6 +141,7 @@ section div a:hover{
 .seccion{
     margin-top: 3rem;
     border-bottom: orange 2px solid;
+    background:linear-gradient(to top,orange,#fafafa)
 }
 .cuerpoNota{
     margin-left: 10rem;
@@ -137,6 +156,7 @@ section div a:hover{
 }
 .tituloNoticia{
     font-size: 3rem;
+    font-weight: 600;
     margin-top: 5rem;
     margin-bottom: 2rem;
 }
@@ -144,7 +164,7 @@ main div p{
     font-size: 2rem;
 }
 main div img{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 main div iframe{
     margin-bottom: 3rem;
@@ -158,9 +178,7 @@ main div a{
 .formulario{
     margin-top: 4rem;
 }
-div img{
-    margin-top: 2rem;
-}
+
 .fotoPortada{
     margin-left: 14rem;
 }
@@ -221,12 +239,16 @@ div img{
     font-size: 1.5rem;
 }
 
-@media screen and (max-widht: 768px){
+@media (max-width: 768px){
     .actualidad{
         display: none;
     }
 }
     
+.menuDesplegable{
+    background-color: rgb(250, 179, 49);
+    padding-right:;
+}
 
 
 
