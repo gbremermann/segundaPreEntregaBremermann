@@ -41,8 +41,9 @@ header div h1 a{
 header ul li{
     list-style-type: none;
     display: inline-block;
-    margin-left: 7rem;
-    font-size: 3rem;   
+    margin-left: 4.5rem;
+    font-size: 3rem;
+    width: 100%;   
      
 }
 .sec{
@@ -247,7 +248,8 @@ main div a{
     
 .menuDesplegable{
     background-color: rgb(250, 179, 49);
-    padding-right:;
+    width: 100vw;
+    
 }
 
 
