@@ -1,3 +1,4 @@
+/*footer*/
 .pie {
     background: linear-gradient(to right, #fafafa, orange);
     align-items: center;
@@ -8,17 +9,21 @@
             display: inline-block;
 
             a {
-                text-decoration: none;
                 font-size: 3rem;
                 margin: 4rem;
-                color: $color_2;
+                @include lista;
 
                 &:hover {
-                    color: $color_3;
+                    color: $color_2;
                 }
             }
         }
     }
+}
+/*MIXIN UTILIZADO EN HEADER Y FOOTER*/
+@mixin lista {
+    text-decoration: none;
+    color: $color_3;
 }
 
 .tituloFooter {
