@@ -54,8 +54,9 @@ header {
 		border-radius: 2rem;
 	}
 	a {
-        font-weight: 600;
-        @include lista;
+		text-decoration: none;
+		color: $color_4;
+		font-weight: 600;
 	}
 }
 .buscar {

@@ -9,21 +9,17 @@
             display: inline-block;
 
             a {
+                text-decoration: none;
                 font-size: 3rem;
                 margin: 4rem;
-                @include lista;
+                color: $color_2;
 
                 &:hover {
-                    color: $color_2;
+                    color: $color_3;
                 }
             }
         }
     }
-}
-/*MIXIN UTILIZADO EN HEADER Y FOOTER*/
-@mixin lista {
-    text-decoration: none;
-    color: $color_3;
 }
 
 .tituloFooter {
